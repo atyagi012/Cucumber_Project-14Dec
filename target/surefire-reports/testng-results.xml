@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Cucumber Project" duration-ms="21001" started-at="2019-12-13T00:19:46Z" finished-at="2019-12-13T00:20:07Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="TestRunner.feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.testRunner.TestRunner@5606c0b]" name="feature" class="org.techAltum.testRunner.TestRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Maven Cucumber Tests" duration-ms="21001" started-at="2019-12-13T00:19:46Z" finished-at="2019-12-13T00:20:07Z">
+      <class name="org.techAltum.testRunner.TestRunner">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:org.techAltum.testRunner.TestRunner@5606c0b]" name="setupClass" is-config="true" duration-ms="110" started-at="2019-12-13T00:19:46Z" finished-at="2019-12-13T00:19:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.testRunner.TestRunner@5606c0b]" name="feature" duration-ms="10721" started-at="2019-12-13T00:19:46Z" description="Cucumber Tests" data-provider="features" finished-at="2019-12-13T00:19:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Scenario1"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make search on ziper home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(io.cucumber.testng.PickleEventWrapper, io.cucumber.testng.CucumberFeatureWrapper)[pri:0, instance:org.techAltum.testRunner.TestRunner@5606c0b]" name="feature" duration-ms="9995" started-at="2019-12-13T00:19:57Z" description="Cucumber Tests" data-provider="features" finished-at="2019-12-13T00:20:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Test Scenario2"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Make search on ziper home page"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="testDownClass()[pri:0, instance:org.techAltum.testRunner.TestRunner@5606c0b]" name="testDownClass" is-config="true" duration-ms="95" started-at="2019-12-13T00:20:07Z" finished-at="2019-12-13T00:20:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDownClass -->
+      </class> <!-- org.techAltum.testRunner.TestRunner -->
+    </test> <!-- Maven Cucumber Tests -->
+  </suite> <!-- Cucumber Project -->
+</testng-results>

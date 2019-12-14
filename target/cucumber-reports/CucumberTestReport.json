@@ -1,0 +1,224 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2019-12-13T01:26:14.125Z",
+        "before": [
+          {
+            "result": {
+              "duration": 22180598700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Test Scenario1",
+        "description": "",
+        "id": "make-search-on-ziper-home-page;test-scenario1",
+        "after": [
+          {
+            "result": {
+              "duration": 1153502800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 418900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on home page",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 113800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enter some string in search text box",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.user_enter_some_string_in_search_text_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 83800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select item from search list",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.select_item_from_search_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 59900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click on item",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.click_on_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Verify searchitem",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.verify_searchitem()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CucumberHooks"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-12-13T01:26:37.481Z",
+        "before": [
+          {
+            "result": {
+              "duration": 16526347200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.initializeTest(Scenario)"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Test Scenario2",
+        "description": "",
+        "id": "make-search-on-ziper-home-page;test-scenario2",
+        "after": [
+          {
+            "result": {
+              "duration": 656495400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ServiceHooks.endTest(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 187000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User is on home page",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.user_is_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 36700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enter some string in search text box",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.user_enter_some_string_in_search_text_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select item from search list",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.select_item_from_search_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24200,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click on item",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.click_on_item()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 42200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Verify searchitem",
+            "match": {
+              "location": "ZaiperHomePageSearchDefinition.verify_searchitem()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@CucumberHooks"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "Make search on ziper home page",
+    "description": "",
+    "id": "make-search-on-ziper-home-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/ZaiperHomePageSearch.feature",
+    "tags": [
+      {
+        "name": "@CucumberHooks",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
