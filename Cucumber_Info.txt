@@ -1,0 +1,95 @@
+Cucumber eclipse plugin:
+https://cucumber.github.io/cucumber-eclipse/
+---------------------------------------------
+
+POM.xml - cucumber files
+
+io.cucumber
+cucumber-java
+
+io.cucumber
+cucumber-testng
+
+io.cucumber
+cucumber-picocontainer
+
+io.cucumber
+cucumber-jvm-deps
+
+testng
+--------------------------
+
+Feature File Content
+
+Fearure
+Background
+Scenario
+Scenario Outline
+
+Given
+When
+And 
+Then
+But
+*
+----------------------------
+
+import options
+
+import org.junit.runner.RunWith;
+import cucumber.api.CucumberOptions;
+import cucumber.api.junit.Cucumber;
+
+----------------------------
+
+Cucumber Options:
+
+dryRun
+Features
+Glue
+Tags
+Monochrome
+Format
+Strict
+
+============
+
+#Author: your.email@your.domain.com
+#Keywords Summary :
+#Feature: List of scenarios.
+#Scenario: Business rule through list of steps with arguments.
+#Given: Some precondition step
+#When: Some key actions
+#Then: To observe outcomes or validation
+#And,But: To enumerate more Given,When,Then steps
+#Scenario Outline: List of steps for data-driven as an Examples and <placeholder>
+#Examples: Container for s table
+#Background: List of steps run before each of the scenarios
+#""" (Doc Strings)
+#| (Data Tables)
+#@ (Tags/Labels):To group Scenarios
+#<> (placeholder)
+#""
+## (Comments)
+#Sample Feature Definition Template
+#@tag
+
+Feature: Make search on ziper home page
+Given User is on home page
+Then User enter some string in search text box
+And Select item from search list
+Then Click on item
+And Verify searchitem
+
+
+
+
+
+
+
+
+
+
+
+
+
